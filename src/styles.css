@@ -1,0 +1,48 @@
+/* Add some basic styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 200px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  
